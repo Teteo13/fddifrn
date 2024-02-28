@@ -1,0 +1,19 @@
+body{
+    background-color: #F4F4FF;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#daily{
+    height: 40rem;
+    width: auto;
+}
+

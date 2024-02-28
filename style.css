@@ -1,0 +1,24 @@
+body{
+    background-color: #F4F4FF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+#daily{
+    height: 40rem;
+    width: auto;
+}
+
+strong{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
