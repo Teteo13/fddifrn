@@ -1,0 +1,137 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    background-color: rgb(228, 228, 236);
+}
+
+hr{
+    display: none;
+}
+
+#voltar{
+    position: fixed;
+    padding: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=radio]{
+    accent-color: rgb(7, 55, 145);
+}
+
+#maintitle{
+    border-radius: 15px;
+    background-color: rgb(16,99,166);
+}
+
+#blob{
+    width: 60rem;
+    margin-bottom: 30rem;
+    height: auto;
+    position: absolute;
+    z-index: -2;;
+}
+
+.questions{
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+    justify-content: center; 
+    gap: 1rem;
+}
+
+
+.answers{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 27rem;
+}
+
+#title{
+    text-align: center;
+}
+
+.output{
+    margin-top: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+#q1case, #q1case2, #q2case, #q3case, #q4case, #q5case, #q6case, #cpfrg, #aviso{
+    display: none;
+    text-align: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+.casesbox{
+    display: flex;
+    flex: column;
+}
+
+#submit{
+    padding: 1rem;
+    margin-top: 4rem;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    font-weight: 700;
+    border: 0px;
+    width: 17rem;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+
+@media(max-width: 767px){ 
+
+    #voltar{
+        position: absolute;
+        font-size: small;
+        width: auto;
+    }
+
+    #submit{
+        margin-top: 6rem;
+        width: 17rem;
+    }
+
+    #blob{
+        width: 100%;
+    }
+    
+    .answers{
+        width: 17rem;
+    }
+
+    .output{
+        width: 17rem;
+    }
+}
