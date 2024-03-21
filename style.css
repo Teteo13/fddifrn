@@ -1,39 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    text-align: center;
-    background-color: #F4F4FF;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    text-align: center;
     justify-content: center;
+    gap: 2rem;
 }
 
 p{
-    font-size: 1.2rem;
-}
-
-#daily{
-    height: 40rem;
-    width: auto;
-}
-
-strong{
-    font-size: 1.2rem;
-    margin-top: 2rem;
-}
-
-p{
-    width: 60rem;
-}
-
-@media(max-width: 767px){
-    #daily{
-        height: 19rem;
-    }
-
-    p{
-        width: 100%;
-    }
+    width: 40rem;
 }
